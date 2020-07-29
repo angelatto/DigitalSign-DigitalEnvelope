@@ -13,9 +13,6 @@ import javax.crypto.NoSuchPaddingException;
 import common.FileIO;
 import common.SerialKey;
 
-/* 20170969 컴퓨터학과 이지은
- * 20170971 컴퓨터학과 이채정
- */
 public class DigitSign {
 
 	protected static final String signAlgorithm = "SHA1withRSA";

@@ -8,14 +8,12 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.PublicKey;
 import java.security.SignatureException;
-import java.util.Formatter;
 import java.util.Scanner;
 
 import javax.crypto.SecretKey;
 
 import common.*;
 import digitalSign.DigitSign;
-import digitalSign.TestSign;
 
 // 전자봉투 생성을 테스트하는 클래스
 public class TestEnvelope {
@@ -104,7 +102,6 @@ public class TestEnvelope {
 		} catch (MakeFileException e) {
 			System.out.println(e.getMessage() + "는 없는 파일 입니다.");
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {

@@ -1,7 +1,6 @@
 package digitalEnvelope;
 
 import java.io.Serializable;
-import java.security.PublicKey;
 
 public class PlainSet implements Serializable {	
 	

@@ -6,9 +6,6 @@ import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
 
-/* 20170969 컴퓨터학과 이지은
- * 20170971 컴퓨터학과 이채정
- */
 public class MyKeyPair extends SerialKey {
 	
 	private static final String keyAlgorithm = "RSA";
@@ -34,7 +31,6 @@ public class MyKeyPair extends SerialKey {
 		this.publicKey = pair.getPublic();
 	}
 	
-	// 이거 접근자 어칼지 고민해봐야함.
 	public PrivateKey getPrivateKey() {
 		return this.privateKey;
 	}

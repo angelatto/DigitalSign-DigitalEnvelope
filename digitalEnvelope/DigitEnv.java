@@ -12,12 +12,8 @@ import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 
-import common.FileIO;
 import digitalSign.DigitSign;
 
-/* 20170969 컴퓨터학과 이지은
- * 20170971 컴퓨터학과 이채정
- */
 // 전자서명 생성, 검증
 public class DigitEnv extends DigitSign{
 

@@ -3,12 +3,10 @@ package digitalEnvelope;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
-import java.util.Formatter;
 import java.util.Scanner;
 
 import javax.crypto.SecretKey;
 
-import common.SerialKey;
 import common.SerialKey;
 
 // AES 키를 생성하는 메인 클래스.
